@@ -20,9 +20,6 @@ The data comes from Stanford (also known as Stanford Dogs Dataset). The data has
 I used transfer learning to incorporate the models of Inception ResNet V2 and VGG16 to perform image classification of the dataset and compared which model performed better (based off accuracy of their predictions). For both models, the optimizer ADAM with a learning rate of 0.0001 were used. Both models were trained, validated, and tested on the same set of images and each model pre-processed the images in the training set (using their respective pre-processing technique from their module.)
 
 ### Results:
-Although Inception ResNet V2 had a better accuracy score better during training and validation, the model was overfit and only guessed 4 breeds: Tibetan Mastiff, English Foxhound, Great Pyrenees, and Saluki. As we can see from the confusion matrix generated from the Inception ResNet V2, there are two very distinct lines where Tibetan Mastiff is and English Foxhound:
-
-![test]('https://github.com/nguyenbel/whos-a-good-boy/blob/master/img/incep_Confusion_Matrix.jpg')
 
 
 ### Conclusion:
