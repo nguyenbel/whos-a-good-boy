@@ -4,7 +4,7 @@
     Image from: <a href = 'https://www.newstatesman.com/science-tech/internet/2016/10/why-are-smol-puppers-cuter-little-dogs'>https://www.newstatesman.com/science-tech/internet/2016/10/why-are-smol-puppers-cuter-little-dogs</a>
 </center>
 
-## Using Image Processing and Transferring Learning to Classify Dog Breeds
+## Using Image Processing and Transfer Learning to Classify Dog Breeds
 The idea for this project is to classify different dog breeds through machine learning. A lot of dog breeds can look somewhat similar, especially to the human eye, so can a convolutional neural network do better at identifying various types of dogs?
 
 Given an image, the Dog Classifier can:
